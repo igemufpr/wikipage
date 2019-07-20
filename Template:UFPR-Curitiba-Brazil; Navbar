@@ -1,0 +1,198 @@
+<!--{{UFPR-Curitiba-Brazil/CustomCSS01}}{{UFPR-Curitiba-Brazil/CustomCSS02}}-->
+<html>
+<style>
+#mainNav {
+  background-color: #1E4B0A;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 10px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #BFD467;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #BFD467;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: #1E4B0A;/*transparent;*/
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #1E4B0A;/*#212529;*/
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+.dropdown-menu {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 14px;
+  color: #BFD467;
+  text-align: left;
+  list-style: none;
+  background-color: #1E4B0A;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #BFD467;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #1E4B0A;
+  text-decoration: none;
+  background-color: #BFD467;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #BFD467;
+}
+
+.dropdown-item.disabled, .dropdown-item:disabled {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+
+</style>
+
+
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil"><img class="navbar-brand img-logo-navbar js-scroll-trigger" style="width: 100px" src="https://2019.igem.org/wiki/images/2/20/T--UFPR-Curitiba-Brazil--logo-nav.jpg" alt="logo"></a>
+<!--      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>-->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+<!--        <i class="fas fa-bars"></i>-->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#mh">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TEAM</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Team">Team Members</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Collaborations">Collaborations</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" data-toggle="dropdown">PROJECT</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Description">Description</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Design">Design</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Experiments">Experiments</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Notebook">Notebook</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Contribution">Contribution</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Results">Results</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Demonstrate">Demonstrate</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Improve">Improve</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Attributions">Attributions</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" data-toggle="dropdown">PARTS</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Parts">Parts Overview</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Basic_Part">Basic Parts</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Composite_Part">Composite Parts</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Part_Collection">Part Collection</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Safety">SAFETY</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" data-toggle="dropdown">HUMAN PRACTICES</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Human_Practices">Human Practices</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Public_Engagement">Education & Engagement</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" data-toggle="dropdown">AWARDS</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Entrepreneurship">Entrepreneurship</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Hardware">Hardware</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Measurement">Measurament</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Model">Model</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Plant">Plant</a>
+                <a class="dropdown-item" href="https://2019.igem.org/Team:UFPR-Curitiba-Brazil/Software">Software</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://igem.org/2019_Judging_Form?team=UFPR-Curitiba-Brazil">JUDGING FORM</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</html>
